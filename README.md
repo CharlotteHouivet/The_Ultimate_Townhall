@@ -3,7 +3,7 @@
 
 
 Jacques Bauheur has 24 hours to introduce himself and The Hacking Project to every single town hall of the 3 following french departments : Var, Morbihan and Vaucluse.
-To succeed in his mission, Jacques was helped by @Joelthp, @Emilie5520, @Elmousski and @MattMonta.
+To succeed in his mission, Jacques was helped by @Joelthp, @Emilie5520, @Elmousski @MattMonta and @CharlotteHouivet.
 
 
 ![alt text](http://image.noelshack.com/fichiers/2018/42/4/1539879144-capture-d-ecran-2018-10-18-a-16-47-15.png)
@@ -13,7 +13,7 @@ To succeed in his mission, Jacques was helped by @Joelthp, @Emilie5520, @Elmouss
 
 This project summarizes 4 of the main courses we followed since we've joined The Hacking Project : 
 1. Collecting datas by scrapping websites;
-2. Save these datas as a JSON file;
+2. Save these datas as a JSON file and as a spreadsheet;
 3. Send emails with Ruby;
 4. Create a Twitter bot. 
 
@@ -49,22 +49,40 @@ This project summarizes 4 of the main courses we followed since we've joined The
 
 ## How to execute the program ? 
 
-Install all the gems
+1. Clone this repository
+
+2. Replace your Gmail username and password in the file
+```sh
+.env
+```
+2. Install all the gems
 ```sh
 bundle install
 ```
-Run the script
+3. Run the script
 ```sh
 ruby app.rb
 ```
 
+## Gems used
 
-...
-une partie qui dit comment se servir du programme, et quelles sont les gems utilisées
-...
+- `nokogiri` 
+- `open-uri`
+- `json`
+- `dotenv`
+- `gmail`
+- `google-drive`
+- `twitter`
 
-...
-une partie qui explique ce qui a été fait : l'email envoyé, le nombre de mairies touchées, le handle Twitter qui a été utilisé
-...
+- `spreadsheet url`: https://docs.google.com/spreadsheets/d/1uv6NI9xfGFVJNJaee9gjyhodusNtx7YQfWA9uQG1H20/edit#gid=0
+
+
+## Result : Mission complete for Jacques Bauheur !
+
+![alt text](http://image.noelshack.com/fichiers/2018/42/4/1539885175-capture-d-ecran-2018-10-18-a-19-52-27.png)
+
+Jacques Bauheur sent #582 emails# introducing himself and The Hacking Project !
+He also followed twitter handles from his twitter account @JackBauHeure. 
+
 
 
