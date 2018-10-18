@@ -69,7 +69,7 @@ ruby app.rb
 - `nokogiri` 
 - `open-uri`
 - `json`
-- `dotenv'
+- `dotenv`
 - `gmail`
 - `google-drive`
 - `twitter`
