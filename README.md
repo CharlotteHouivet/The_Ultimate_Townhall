@@ -38,14 +38,12 @@ This project summarizes 4 of the main courses we followed since we've joined The
 ```
 **Gemfile** :  gives the list of all gems included in the project;
 **README.md** : contains information about the project;
-**app.rb** : 
+**app.rb** : launches the program;
 **townhalls.json** : stocks emails scrapped from townhalls;
 **townhalls_adder_to_db.rb** :
 **townhalls_follower.rb** : follows every townhall on Twitter;
 **townhalls_mailer.rb** : mass mailing, sends a mail to every townhall to tell them about The Hacking Project;
 **townhalls_scrapper.rb** : enables the scrapping of townhalls emails; 
-**index.rb** :
-**done.rb** :
 
 ## How to execute the program ? 
 
@@ -81,8 +79,8 @@ ruby app.rb
 
 ![alt text](http://image.noelshack.com/fichiers/2018/42/4/1539885175-capture-d-ecran-2018-10-18-a-19-52-27.png)
 
-Jacques Bauheur sent #582 emails# introducing himself and The Hacking Project !
-He also followed twitter handles from his twitter account @JackBauHeure. 
+Jacques Bauheur sent __582 emails__ introducing himself and The Hacking Project !
+He also followed twitter handles from his twitter account __@JackBauHeure__. 
 
 
 
