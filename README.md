@@ -27,14 +27,12 @@ This project summarizes 4 of the main courses we followed since we've joined The
 ├── db
 │   └── townhalls.json
 └── lib
-│   └── app
-│       ├── townhalls_adder_to_db.rb
-│       ├── townhalls_follower.rb
-│       ├── townhalls_mailer.rb
-│       └── townhalls_scrapper.rb
-└── view
-    ├── index.rb
-    └── done.rb
+   └── app
+       ├── townhalls_adder_to_db.rb
+       ├── townhalls_follower.rb
+       ├── townhalls_mailer.rb
+       └── townhalls_scrapper.rb
+
 ```
 **Gemfile** :  gives the list of all gems included in the project;
 **README.md** : contains information about the project;
