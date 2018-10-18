@@ -22,23 +22,27 @@ This project summarizes 4 of the main courses we followed since we've joined The
 ```sh
 .
 ├── Gemfile
+├── Gemfile.lock
 ├── README.md
 ├── app.rb
 ├── db
+│   ├── townhalls.json
 │   └── townhalls.csv
 └── lib
    └── app
-       ├── townhalls_adder_to_db.rb
-       ├── townhalls_follower.rb
-       ├── townhalls_mailer.rb
-       └── townhalls_scrapper.rb
-
+   │   ├── townhalls_follower.rb
+   │   ├── townhalls_mailer.rb
+   │   └── townhalls_scrapper.rb
+   └── views
+       ├── done.rb
+       └── index.rb
 ```
+
 **Gemfile** :  gives the list of all gems included in the project;
 **README.md** : contains information about the project;
 **app.rb** : launches the program;
-**townhalls.csv** : stocks emails scrapped from townhalls;
-**townhalls_adder_to_db.rb** :
+**townhalls.csv** : stocks emails scrapped from townhalls as a csv file;
+**townhalls.json** : stocks emails scrapped from townhalls as a json file;
 **townhalls_follower.rb** : follows every townhall on Twitter;
 **townhalls_mailer.rb** : mass mailing, sends a mail to every townhall to tell them about The Hacking Project;
 **townhalls_scrapper.rb** : enables the scrapping of townhalls emails; 
