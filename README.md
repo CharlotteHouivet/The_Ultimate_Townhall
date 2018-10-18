@@ -29,13 +29,13 @@ This project summarizes 4 of the main courses we followed since we've joined The
 │   ├── townhalls.json
 │   └── townhalls.csv
 └── lib
-   └── app
-   │   ├── townhalls_follower.rb
-   │   ├── townhalls_mailer.rb
-   │   └── townhalls_scrapper.rb
-   └── views
-       ├── done.rb
-       └── index.rb
+    └── app
+    │   ├── townhalls_follower.rb
+    │   ├── townhalls_mailer.rb
+    │   └── townhalls_scrapper.rb
+    └── views
+        ├── done.rb
+        └── index.rb
 ```
 
 **Gemfile** :  gives the list of all gems included in the project;
