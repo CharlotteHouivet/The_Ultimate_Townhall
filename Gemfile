@@ -1,7 +1,12 @@
 source "https://rubygems.org"
 
 ruby '2.5.1'
-gem 'google_drive'
+
+gem 'nokogiri'
 gem 'json'
+gem 'dotenv'
+gem 'twitter'
+gem 'dotenv'
 gem 'gmail'
-gem ‘mail’
+gem 'google_drive'
+gem 'twitter'
