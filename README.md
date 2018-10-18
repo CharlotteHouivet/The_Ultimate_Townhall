@@ -73,7 +73,7 @@ ruby app.rb
 - `spreadsheet url`: https://docs.google.com/spreadsheets/d/1uv6NI9xfGFVJNJaee9gjyhodusNtx7YQfWA9uQG1H20/edit#gid=0
 
 
-## Result : Mission complete for Jacques Bauheur !
+## Mission complete for Jacques Bauheur !
 
 ![alt text](http://image.noelshack.com/fichiers/2018/42/4/1539885175-capture-d-ecran-2018-10-18-a-19-52-27.png)
 
